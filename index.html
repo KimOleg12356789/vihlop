@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+
+    <div class="menu">
+        <div class="menu_link">
+            <a href="#">
+                <img src="images/menu_li.svg" alt=""> 
+            </a>
+        </div>
+        <div class="menu_link2">
+            <a href="#">
+                <img src="images/menu_li2.svg" alt=""> 
+            </a>
+        </div>
+        <div class="menu_link3">
+            <a href="#">
+                <img src="images/menu_li3.svg" alt=""> 
+            </a>
+        </div>
+    </div>
+      
+    <section class="background">
+        <header class="header">
+            <div class="container">
+                <div class="header_wrap">
+                    <div class="header_logo">
+                        <a href="#">
+                            <img src="images/header_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header_block">
+                        <div class="header_location">
+                            <button>
+                                <p>Челябинск</p>
+                                <img src="images/header_location.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header_block">
+                        <div class="header_input">
+                            <input type="text" size="40" placeholder="Поиск по индентификатору">
+                            <div class="header_input-button">
+                                <button>
+                                    <svg width="31" height="27" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <mask id="mask0_117_2804" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="31" height="27">
+                                    <rect opacity="0.3" width="31" height="26.1158" fill="url(#pattern0)"/>
+                                    </mask>
+                                    <g mask="url(#mask0_117_2804)">
+                                    <rect x="-18.2822" y="-30.1185" width="79.4872" height="79.4872" fill="#3F3F3F"/>
+                                    </g>
+                                    <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_117_2804" transform="matrix(0.00877546 0 0 0.0104167 0.0787781 0)"/>
+                                    </pattern>
+                                    <image id="image0_117_2804" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAErklEQVR4nO2cy2tdVRSHF2hindUgatuJD5xEHWjRic4SUNAK2oGzklqLjoraSkftLZJKnRR0VgslOlL8G+qTGvA/UGOMiI9G01Q7aWqar2zuChQNZ+9zknv32uesDwKX3Mf5nfM7Zz/WXmuLOI7jOI7jOI7jDBjgFuAJ4E3gLPAVMA9cAq4BK/r6R+BL4AP97OPhu25Qs4s+AjwPfApcpjnLwCfAnvCbbkb8wo8BJ4BFtp6LwHHgDjfi/xf+duBt4B8Gz99AD9jmRvQv/rPapg+bOeCZrrfzp4A18rEGvAeMSpcA7gG+xQ6zwF3SBYD7gO+xxzzwoLQZ4AHgtwYXZxW4AEwDLwLjYTSjzdiIvh7X96b1s+E7dfkVuF9a3OyEjq8OPwGHgR0NjrcDOAIs1DzmD61rjoDbarb5vwP7t2LyRP8JOQD8UbNPaE/HDLxf4+TPAdsHoGE7MFNDx2lp0Tg/Zah5Fdg3BD1TGj+KsVb8PEFnuCmTrCvAxBB1TeoxY8wVPWPW8ELKnT+RQdtE4pNwXAoOrKXEdvZl1DiVoO/yIPqkgaNRzRjnDOicSdB5TEpCh36LCUPN7HcW/UlcCFVXEYawt0op6GJKjP1iBOCVBL3PSSnoSlZshjti7IldiGj+WApaw40tIx4WY9APW1RxqYg1Zl1Ar2K1SWxn0AA7EwJ4u8U6mpFQxQUxCvBNRPvrYh1NHaliWowCnIxoPyPWAb6OnMQLYhRgb0T7F2IdHeFUMS5GAR6OaJ8X6wBLkZMYE6MAd0a0/ynWSQhwjRpfOKriqlin5QasiHVa3gT9JS3ohB8So9CSTjikj7d1GPqZWEfz80udiL0T0X5WrAO8UXAoYjai/ZBYRytTqrgO7JIyg3GPSiHh6FCZUsURMQbwVkTzchHh6ICWBVWxYHBB5ueI5g+lFLQmK8YBMQJwMEHvHikFvaNSFrqtLMovRrT+YumJTUIL4mLMGND5UYLOo1IaemeFgrgYUxk1vpygb8nCk9oIrUaMEYJ3kxm0TSamJppLIEgmJLYmFmVcGaYJpCfnfld0cm4AeDoxPX1lGM0R/WYn5c4PE8anpA2EYgfSmRlENTv9Pimlw13nXWkLYREmIc5yMxc1XXCrSpQO1tz+4HxRuaAphMI3LYCrw4JmrO1scLxdGl6IzXA34lVpI6EEVEtB67KqSVMnNWb/iNYfjOrfmP5vr35mtmGZ6jr/Ai9JGwHu1dFFqZyS0gHurtknDJrzwGt656dwQkpHm47TmTfruB5GO+sdbmh2any3fBMCoRS0QQX9VhCawSc30EMXTdimwbuU2NFmWdLtDzac4Tb4vXaYcFM1+7Ga2wqkEkLKR2OBNZrRHhMCoU0ONVmhLEgrU5qyHFay6mzat4ljtcuE/6wx7w7FEcAZ4HPdonJJYzrX1KQ5fS/UJxwCHmuyhrsJA9prwjCh30x1e56QG9yE/OAm5Ac3IT+4CfnBTcgPbkJ+3AQDuAkGcBMM4CYYwE0wgJtgADfBAG6CAdyE8k3o5dbfZRN6uXV32YRebr1dNqGXW2eXTejl1tdlE3q5dXXZhF5uPZ2E/pb+njvkOI7jOI7jOI7U4Qa4oLNnD7zItAAAAABJRU5ErkJggg=="/>
+                                    </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_block">
+                        <div class="header_number">
+                            <div class="header_number_top">
+                                <div class="header_number_ellipse"></div>
+                                <div class="header_number_title">
+                                    Мы на связи
+                                </div>
+                            </div>
+                            <div class="header_number_link">
+                                <a href="#">
+                                    +7 (902) 012-12-43
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_block">
+                        <div class="header_number">
+                            <div class="header_number_top">
+                                <div class="header_number_ellipse"></div>
+                                <div class="header_number_title">
+                                    Мы на связи
+                                </div>
+                            </div>
+                            <div class="header_number_link">
+                                <a href="#">
+                                    +7 (902) 012-12-43
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_block">
+                        <div class="header_button">
+                            <button>
+                                <img src="images/header_button.png" alt="">
+                                <p>Вход и регистрация</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="work">
+            <div class="container">
+                <div class="title_width">
+                    <h1 class="title">
+                        Поиск в прошивки в каталоге
+                    </h1>
+                </div>
+                <ul class="work_ul">
+                    <li class="work_li next">
+                        <button>
+                          <p>Ford</p> 
+                        </button>
+                    </li>
+                    <li class="work_li next">
+                        <button>
+                            <p>Focus 3</p>
+                        </button>
+                    </li>
+                    <li class="work_li active">
+                        <button>
+                            <p>Модель ЭБУ</p>
+                        </button>
+                    </li>
+                    <li class="work_li prev">
+                        <button>
+                            <p>Идентификатор ПО</p>
+                        </button>
+                    </li>
+                    <li class="work_li prev">
+                        <button>
+                            <p>Последний пункт</p>
+                        </button>
+                    </li>
+                </ul>
+                <div class="work_title">
+                    <span>01</span> Выберите марку вашего автомобиля
+                </div>
+                <div class="work_wrap">
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_block">
+                        <div class="work_border">
+                            <div class="work_border-icon">
+                                <img src="images/work_border-icon.png" alt="">
+                            </div>
+                            <div class="work_border-title">
+                                Bmw
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work_button">
+                    <button>
+                        Далее
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="kartochka">
+        <div class="container">
+            <div class="kartochka_border car">
+                <div class="kartochka_zindex">
+                <div class="kartochka_title">
+                    Информация по прошивке:
+                </div>
+                <h2 class="title">
+                    BV61-14C204-BNA_st1
+                </h2>
+                <div class="kartochka_price">
+                    <div class="kartochka_price-title">
+                        Стоимость <br>прошивки:
+                    </div>
+                    <div class="kartochka_price-price">
+                        2500 <span>₽</span>
+                    </div>
+                </div>
+                <div class="kartochka_price">
+                    <div class="kartochka_price-title">
+                        Рекомендуемая <br>стоимость чип-тюнинга:
+                    </div>
+                    <div class="kartochka_price-price kartochka_price-price-color">
+                        5900 <span>₽</span>
+                    </div>
+                </div>
+                <div class="kartochka_button">
+                    <button>
+                        Купить
+                        <img src="images/kartochka_button.png" alt="">
+                    </button>
+                </div>
+                <div class="title_kartochka">
+                    В указанную стоимость входит:
+                </div>
+                <div class="kartochka_wrap">
+                    <div class="kartochka_block">
+                        <div class="kartochka_card kartochka_card-width">
+                            <div class="kartochka_card-icon">
+                                <img src="images/kartochka_card-icon.svg" alt="">
+                            </div>
+                            <div class="kartochka_card-title">
+                                Зачисление +125,00 бонусных рублей на последующие покупки
+                            </div>
+                            <div class="kartochka_card-suptitle">
+                                (при оплате полной суммы за прошивку банковской картой)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kartochka_block">
+                        <div class="kartochka_card kartochka_card-width2">
+                            <div class="kartochka_card-icon">
+                                <img src="images/kartochka_card-icon2.svg" alt="">
+                            </div>
+                            <div class="kartochka_card-title">
+                                С Активация 3-х модификаций для данной версии ПО:
+                            </div>
+                            <ul class="kartochka_card-ul">
+                                <li class="kartochka_card-li">
+                                    st1
+                                </li>
+                                <li class="kartochka_card-li">
+                                   st1_e2 
+                                </li>
+                                <li class="kartochka_card-li">
+                                    std_e2
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="kartochka_block">
+                        <div class="kartochka_card kartochka_card-width3">
+                            <div class="kartochka_card-icon">
+                                <img src="images/kartochka_card-icon3.svg" alt="">
+                            </div>
+                            <div class="kartochka_card-title">
+                                Возможность генерации персональных сертификатов подтверждения подлинности прошивки (для клиента)
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="kartochka_block">
+                        <div class="kartochka_card kartochka_card-width4">
+                            <div class="kartochka_card-icon">
+                                <img src="images/kartochka_card-icon4.svg" alt="">
+                            </div>
+                            <div class="kartochka_card-title">
+                                Бесплатные обновления и техническая поддержка
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="kartochka_block">
+                        <div class="kartochka_card kartochka_card-width5">
+                            <div class="kartochka_card-icon">
+                                <img src="images/kartochka_card-icon5.svg" alt="">
+                            </div>
+                            <div class="kartochka_card-title">
+                                Гарантированная работа со всеми рекомендуемыми загрузчиками
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="kartochka_inner">
+                    <div class="kartochka_inner-block">
+                        <div class="kartochka_inner-title">
+                            <span>Автомобиль:</span> Ford Focus 3
+                        </div>
+                        <div class="kartochka_inner-title">
+                            <span>Система управления:</span> Continental EMS2204
+                        </div>
+                        <div class="kartochka_inner-title">
+                            <span>Идентификаторы ПО:</span> BV61-14C204-BNA
+                        </div>
+                        <div class="kartochka_inner-suptitle">
+                            Для подбора и идентификации прошивок данной системы управления под формат нашего каталога можно использовать <a href="#">Модуль идентификации Siemens EMS2204.</a>
+                        </div>
+                    </div>
+                    <div class="kartochka_inner-block2">
+                        <div class="kartochka_inner-title">
+                            <span>Описание:</span> Модифицированная версия с улучшенными ездовыми характеристиками. Мощность и крутящий момент увеличены на диапазоне низких оборотов. Улучшена динамика разгона. Снижено время отклика педали газа.
+                        </div>
+                        <div class="kartochka_inner-title">
+                            <span>Размер/формат файла прошивки:</span> 2MB (*.bin)
+                        </div>
+                        <div class="kartochka_inner-title">
+                            <span>Рекомендуемые способы записи:</span> OBD2
+                        </div>
+                        <div class="kartochka_inner-title">
+                            <span>Рекомендуемые загрузчики:</span> Combiloader, PCMFlash
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrap">
+                <div class="footer_left">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="images/header_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer_location">
+                        <button>
+                            <p>Челябинск</p>
+                            <img src="images/footer_location.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <div class="footer_number">
+                        <div class="footer_number_top">
+                            <div class="footer_number_ellipse"></div>
+                            <div class="footer_number_title">
+                                Мы на связи
+                            </div>
+                        </div>
+                        <div class="footer_number_link">
+                            <a href="#">
+                                +7 (902) 012-12-43
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_number">
+                        <div class="footer_number_top">
+                            <div class="footer_number_ellipse"></div>
+                            <div class="footer_number_title">
+                                Мы на связи
+                            </div>
+                        </div>
+                        <div class="footer_number_link">
+                            <a href="#">
+                                +7 (902) 012-12-43
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_button">
+                        <button>
+                            Клиентский раздел
+                            <img src="images/footer_button.svg" alt="">   
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_inner">
+                <div class="footer_inner-wrap">
+                    <div class="footer_block">
+                        <div class="title_footer">
+                            СПЕЦИАЛИСТУ
+                        </div>
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Каталог готовых прошивок
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_block">
+                        <div class="title_footer">
+                            О НАС
+                        </div>
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    О компании “Вечный двигатель!
+                                </a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    О компании “Вечный двигатель!
+                                </a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_block">
+                        <div class="title_footer">
+                            Дополнительно
+                        </div>
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Как купить прошивку
+                                </a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Сколько стоят наши прошивки?
+                                </a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Вспомогательные утилиты
+                                </a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">
+                                    <img src="images/footer_li.svg" alt="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_vk">
+                    <a href="#">
+                        <img src="images/footer_vk.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                © 2019-2023 Веб-сайт vd11.ru и большая часть представленных на нём информационных материалов являются разработкой компании Вечный Двигатель. Перед началом использования настоящего сайта пожалуйста ознакомьтесь с <a href="#">Пользовательским соглашением</a> и <a href="#">Политикой конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  </body>
+  
+
+  
+</html>

@@ -1,0 +1,437 @@
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+	
+}
+
+@media screen and (max-width: 1250px){
+	
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 27px;
+	    left: 158px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 40px;
+	}
+
+	.news-arrow2 {
+	    transform: rotate(171deg);
+	    margin: -20px 40px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 39px 0px 33px;
+	}
+}	
+
+
+@media screen and (max-width: 1050px) {
+	.paypal-block {
+		width: 100%;
+		padding: 0;
+	}
+
+	.paypal-block2 {
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+
+	.paypal-block3 {
+		width: 100%;
+		padding: 30px 0 0 0;
+	}
+
+	.paypal-block4 {
+		padding: 20px 0 0 0;
+		width: 100%;
+	}
+
+	.about-block {
+		width: 100%;
+		padding: 0;
+	}
+
+	.about-block2 {
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+
+	.latest-block {
+		width: 50%;
+		padding: 8px 16px;
+	}
+
+	.latest-img img {
+		width: 100%;
+	}
+
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 27px;
+	    left: 130px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 13px;
+	}
+
+	.news-arrow2 {
+	    transform: rotate(171deg);
+	    margin: -20px 13px 0 0;
+	} 
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 10px 0px 9px;
+	}
+
+	.fundamental-width {
+		width: 1100px;
+	}
+
+  
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 900px) {
+	
+
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.header-title {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 30px;
+	    line-height: 32px;
+	    color: #333333;
+	}
+
+	.news-wrap {
+		justify-content: center;
+	}
+
+	.news-block {
+		padding: 8px 16px;
+		width: 50%;
+	}
+
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 150px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 30px;
+	}
+
+	.news-arrow2 {
+	    transform: rotate(171deg);
+	    margin: -20px 30px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 30px 0px 26px;
+	}
+
+	.fundamental-title {
+	    font-family: 'Montserrat-Bold';
+	    font-size: 16px;
+	    line-height: 30px;
+	    color: #111111;
+	}
+
+	.fundamental-suptitle {
+		font-size: 16px;
+	    line-height: 30px;
+	}
+
+	.fundamental-suptitle2 {
+		font-size: 16px;
+	    line-height: 30px;
+	}
+
+	.fundamental-suptitle3 {
+		font-size: 16px;
+	    line-height: 30px;
+	}
+
+	.fundamental-width {
+	    width: 1000px;
+	}
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 122px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 10px;
+	}
+
+	.news-arrow2 {
+	    transform: rotate(171deg);
+	    margin: -20px 10px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 0px 0px 0px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+  	
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  	.header-title {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 18px;
+	    line-height: 18px;
+	    color: #333333;
+	}
+
+	.paypal-block {
+		flex-wrap: wrap;
+	}
+
+	.paypal-border {
+		width: 100%;
+	}
+
+	.paypal-border2 {
+		width: 100%;
+	}
+
+	.about-border-block {
+		width: 100%;
+	}
+
+	.latest-block {
+		width: 100%;
+	}
+
+	.news-block {
+		width: 100%;
+	}
+
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 197px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 80px;
+	}
+
+	.news-arrow2 {
+	    margin: -20px 80px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 75px 0px 75px;
+	}
+
+	.title {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 18px;
+	    line-height: 18px;
+	    color: #333333;
+	    display: flex;
+	    align-items: center;
+	}
+
+	.title-img {
+	    background: linear-gradient(241.28deg, #143247 0%, #1FBC8B 100%);
+	    box-shadow: 5px 5px 16px rgb(0 158 70 / 30%);
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 50%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin: 0 10px 0 0;
+	}
+
+	.latest {
+	    padding: 0 0 40px 0;
+	}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	.header-logo a img {
+  		width: 40px;
+  	}
+
+  	.paypal-border3-absolute {
+	    position: absolute;
+	    right: 95px;
+	    bottom: -2.5px;
+	}
+
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 165px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 40px;
+	}
+
+	.news-arrow2 {
+	    margin: -20px 40px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 45px 0px 45px;
+	}
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+	.header-title {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 16px;
+	    line-height: 16px;
+	    color: #333333;
+	}
+
+	.header-logo a img {
+	    width: 30px;
+	}
+
+	.paypal-border3-numbers {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 40px;
+	    line-height: 48px;
+	    color: #1EB587;
+	}
+
+	.title {
+	    font-family: 'Montserrat-ExtraBold';
+	    font-size: 16px;
+	    line-height: 16px;
+	    color: #333333;
+	    display: flex;
+	    align-items: center;
+	}
+
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 145px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 20px;
+	}
+
+	.news-arrow2 {
+	    margin: -20px 20px 0 0;
+	}
+
+	.news-arrow3 {
+	    transform: rotate(87deg);
+	    margin: -20px 25px 0px 25px;
+	}
+
+	.news-inner-elipse {
+		width: 10px;
+		height: 10px;
+	}
+
+	.news-inner-elipse2 {
+		width: 10px;
+		height: 10px;
+	}
+
+	.news-inner-elipse3 {
+		width: 10px;
+		height: 10px;
+	}
+
+	.news-inner-title {
+	    padding: 0 0 0 6px;
+	    font-family: 'Montserrat-Regular';
+	    font-size: 14px;
+	    line-height: 22px;
+	    color: #111111;
+	}
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+	.news-absolute {
+	    background: #FFFFFF;
+	    padding: 0 10px;
+	    position: absolute;
+	    bottom: 35px;
+	    left: 120px;
+	}
+
+	.news-arrow {
+	    margin: -20px 0 0 0px;
+	}
+
+	.news-arrow2 {
+	    margin: -20px 0 0 0px;
+	}
+
+	.news-arrow3 {
+	    margin: -20px 0 0 0px;
+	}
+}
